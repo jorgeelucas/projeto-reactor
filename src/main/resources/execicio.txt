@@ -1,0 +1,12 @@
+1: Criar e configurar um projeto Maven com Project reactor
+    - Crie um projeto maven e adicione a dependencia do Project reactor
+
+2: Criar um Flux simples
+    - Crie uma classe MeuPrimeiroObservable no diretório src/main/java/br/com/reativo
+    - Dentro da classe crie um Flux que emite números inteiros de 1 a 10
+    - Se inscreva no flux e imprima os itens emitidos
+
+3: Usar operadores para transformar e filtrar itens
+    - Modifique o flux anterior, agora use o operador Map para multiplicar todos os números por 3
+    - Use o operador Filter para emitir apenas os números pares
+    - Se inscreva e imprima os itens emitidos
